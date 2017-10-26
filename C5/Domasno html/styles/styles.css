@@ -26,8 +26,6 @@ main {
 
 section {
 	width: 100%
-	margin-left: 64px;
-	margin-right:48px;
 	padding:0;
 	box-sizing: border-box;
 }
@@ -114,6 +112,7 @@ section {
 .header-bot {
 	height: 70px;
 	margin:0px;
+	box-sizing: border-box;
 }
 
 	.header-bot .left {
@@ -125,7 +124,7 @@ section {
 			border-right: 1px solid #c6c9ce;
 			height: 70px;
 			float: left;
-			
+			box-sizing: border-box;
 		}
 
 			.header-bot .left .menu i {
@@ -168,6 +167,7 @@ section {
 			display: inline-block;
 			text-align: right;
 			line-height: 70px;
+			box-sizing: border-box;
 		}
 
 			.header-bot .right .center a {
@@ -187,13 +187,13 @@ section {
 
 		.header-bot .right .submit {
 			width: 11.5%;
-			/*width: %;*/
 			display: inline-block;
 			line-height: 69px;
 			text-align: center;
 			background-color: #49c5b6;
 			float:right;
 			cursor: pointer;
+			box-sizing: border-box;
 		}
 
 			.header-bot .right .submit:hover {
@@ -464,6 +464,7 @@ main .image {
 
 .content {
 	display:inline-block;
+
 	
 }
 	.content img {
