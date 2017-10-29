@@ -29,6 +29,10 @@ header {
 	background-color: rgba(56, 5, 255, 0.84)
 }
 
+.cleaner {
+	clear: both;
+}
+
 .header-container {
 	width: 1170px;
 	padding:0 15px;
@@ -75,16 +79,21 @@ header {
 					padding: 25px 15px;
 					color: white;
 					letter-spacing: 2px;
-					height: 75px;
-
-					
+					height: 75px;	
+					transition: color 0.4s ease;
 				}
+
+					.header-container .navigation .nav-menu a:hover {
+						color:#4a4c4f;
+						
+					}
+
 
 article {
 
 }
 
-	section {
+	.sec1 {
 		overflow: hidden;
 		display: block;
 		margin:0;
@@ -182,10 +191,169 @@ article {
 							padding: 0 28px;
 							line-height: 53px;
 							font-size: 12px;
-							font-weight: 400;
+							font-weight: 600;
 							display: inline-block;
+							transition: background-color 0.4s ease;
 						}
 
 						.button a:hover {
-							background-color: rgb(56, 5, 255);
+							background-color: #408edd;
+							border-color: #408edd;
 						}
+
+	.sec2 {
+		margin: 0;
+		width: 100%;
+		padding:30px 0;
+		border-bottom: 1px solid #bcbfc4;
+	}
+
+		.sec2 .title {
+			display: block;
+			margin:0px auto;
+			width: 1170px;
+			padding: 0 15px;
+			
+		}
+
+			.sec2 .title h3 {
+				font-size: 12px;
+				font-weight: 800;
+				letter-spacing: 1px;
+				color: #a4a7ad;
+				margin-bottom: 10px;
+
+			}
+
+		.sec2 .logos {
+
+		}
+
+			.sec2 .logos ul {
+				width: 1170px;
+				padding: 0 15px;
+				margin-left:auto;
+				margin-right: auto;
+				text-align: center;
+			}
+
+				.sec2 .logos li {
+					display: inline-block;
+					margin-right: 40px;
+				}
+
+					.logos img {
+						width: 118px;
+						height: 74px;
+					}
+
+	.sec3 {
+		width: 1170px;
+		padding: 70px 15px; 
+		margin-right: auto;
+		margin-left: auto;
+		height: auto;
+	}
+
+		.sec3 .title1 {
+			text-align: center;
+		}
+
+			.sec3 .title1 h3 {
+				font-size: 11px;
+				font-weight: 800;
+				letter-spacing: 1px;
+				color: #424344;
+				margin-bottom: 15px;
+			}
+
+		.sec3 .title2 {
+			text-align: center;
+		}
+
+			.sec3 .title2 h1 {
+				font-size: 20px;
+				color: #424344;
+				letter-spacing: 1px;
+				margin-bottom: 30px;
+			}
+
+		.sec3 .under {
+			width: 100%;
+			padding-top: 30px;
+			height: 343px;
+			box-sizing: border-box;
+
+		}
+
+
+				.sec3 .under .paragraphs {
+					padding:10px 25px;
+					box-sizing: border-box;
+					width: 50%;
+					float: left;
+				}
+
+					.sec3 .under .paragraphs .p1 {
+						margin-bottom: 35px;
+					}
+
+						.p1 p {
+							color: #464650;
+							letter-spacing: 0.5px;
+							font-weight: 300;
+							font-size: 16px;
+							line-height: 1.5;
+						}
+
+					.sec3 .under .paragraphs .p2 {
+						margin-bottom: 35px;
+					}
+
+						.p2 p {
+							color: #464650;
+							letter-spacing: 0.5px;
+							font-weight: 300;
+							font-size: 16px;
+							line-height: 1.5;
+						}
+
+					.button2 {
+						display: inline-block;
+						text-align: center;
+					}
+
+						.button2 a {
+							border:1px solid #2328ff;
+							border-radius: 100px;
+							color: #2328ff;
+							padding: 0 28px;
+							line-height: 53px;
+							font-size: 12px;
+							font-weight: 600;
+							display: inline-block;
+							transition: background-color 0.4s ease;
+						}
+
+							.button2 a:hover {
+								background-color: #ed1650;
+								border-color: #ed1650;
+								color: white;
+							}
+
+				.sec3 .under .right {
+					padding:10px 25px;
+					box-sizing: border-box;
+					width: 50%;
+					float: right;
+				}
+
+					.sec3 .under .right .image-sec {
+					
+					}
+
+						.right img {
+							width: 500px;
+							height: 290px;
+						}
+
