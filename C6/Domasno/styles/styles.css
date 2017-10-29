@@ -21,13 +21,12 @@ a {
 }
 
 header {
-	position: fixed;
 	right:0;
 	left:0;
 	top:0;
-	background-color: transparent;
-	transition: all .5s ease;
-	min-height: 62px;
+	height: 75px;
+	background-image: linear-gradient(to bottom right,rgba(56, 5, 255, 0.84),rgba(134, 45, 179, 0.76));
+	background-color: rgba(56, 5, 255, 0.84)
 }
 
 .header-container {
@@ -35,6 +34,7 @@ header {
 	padding:0 15px;
 	margin-left:auto;
 	margin-right:auto;
+
 }
 
 	.header-container .logo {
@@ -47,32 +47,145 @@ header {
 		}
 
 			.header-container .logo img {
-				max-height: 40px;
+				height: 40px;
 			}
 
 	.header-container .navigation {
 		display: block;
-		/*background-color: #3217c1;*/
 	}
 		.header-container .navigation .nav-menu {
 			float: right;
 			list-style: none;
 			padding: 0;
 			margin-top: 0;
+			height: 75px;
 		}
 
 			.header-container .navigation .nav-menu li {
 				float: left;
 				display: block;
-				position: relative;
+				height: 75px;
 			}
 
 				.header-container .navigation .nav-menu a {
 					display: block;
 					font-size: 10px;
 					font-weight: 500;
-					line-height: 20px;
+					line-height: 25px;
 					padding: 25px 15px;
-					color: black;
+					color: white;
+					letter-spacing: 2px;
+					height: 75px;
+
 					
 				}
+
+article {
+
+}
+
+	section {
+		overflow: hidden;
+		display: block;
+		margin:0;
+		padding: 0;
+		width: 100%;
+		height:100%;
+	}
+		
+		.background {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			overflow: hidden;
+		}	
+			.bg-image {
+				width: 100%;
+				height: 92.3vh;
+				background-image: url(../images/astronaut.jpg);
+				background-size: cover;
+				background-position:center;
+				background-repeat: no-repeat;
+			}
+
+			.overlay {
+				width: 100%;
+				height: 92.3vh;
+				position: absolute;
+				top:0;
+				background-image: linear-gradient(to bottom right,rgba(56, 5, 255, 0.84),rgba(134, 45, 179, 0.76));
+				
+			}
+
+			.text {
+				position: relative;
+				width: 100%;
+				height: 100%;
+				padding: 250px 0;
+
+			}
+				.container {
+					width: 1170px;
+					padding:0 15px;
+					margin-left:auto;
+					margin-right:auto;
+					height: 100%;
+				}
+					.title {
+						margin:25px 0;
+						position: relative;
+						text-align: center;
+					}
+
+						.title h4 {
+							font-size: 19px;
+							font-weight: 700;
+							margin-top: 10px;
+							margin-bottom: 20px;
+							color: white;
+							letter-spacing: 1px;
+						}
+
+						.title hr {
+							width: 45px;
+							margin:20px auto;
+							display: block;
+						    height: 1px;
+						    border: 0;
+						    border-top: 1px solid red;
+						   
+						}
+
+					.container h2 {
+						font-size: 42px;
+						font-weight: 700;
+						text-align: center;
+						margin-bottom: 25px;
+						color: white;
+					}
+
+					.container h3 {
+						font-size: 20px;
+						font-weight: 700;
+						text-align: center;
+						margin-bottom: 45px;
+						color: white;
+					}
+					.button {
+						text-align: center;
+					}
+
+						.button a {
+							border:1px solid white;
+							border-radius: 100px;
+							color: white;
+							padding: 0 28px;
+							line-height: 53px;
+							font-size: 12px;
+							font-weight: 400;
+							display: inline-block;
+						}
+
+						.button a:hover {
+							background-color: rgb(56, 5, 255);
+						}
