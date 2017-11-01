@@ -6,6 +6,11 @@
 	list-style: none;
 }
 
+html, body {
+	width: 100%;
+	height:100%;
+}
+
 body {
 	font-size: 15px;
 	font-weight: 300;
@@ -119,7 +124,7 @@ article {
 
 			.overlay {
 				width: 100%;
-				height: 92.3vh;
+				height: 100%;
 				position: absolute;
 				top:0;
 				background-image: linear-gradient(to bottom right,rgba(56, 5, 255, 0.84),rgba(134, 45, 179, 0.76));
@@ -413,6 +418,7 @@ article {
 					color: white;
 					text-transform: uppercase;
 					text-align: center;
+					transition: all ease .9s;
 					transition-delay: .1s;
 					opacity: 0;
 					display: block;
@@ -448,10 +454,12 @@ article {
 
 					.box1:hover .imagehover1 h3 {
 						opacity: 1;
+						
 					}
 
 					.box1:hover .imagehover1 p {
 						opacity: 1;
+						/*transform: scale(0.7);*/
 					}
 
 
