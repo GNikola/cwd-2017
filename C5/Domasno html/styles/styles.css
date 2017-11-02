@@ -1,5 +1,6 @@
 * {
 	font-family: sans-serif;
+	/*box-sizing: border-box;*/
 
 }
 
@@ -14,6 +15,8 @@ header {
 	width: 100%;
 	height:	140px;
 	background-color: #e8ebef;
+	box-sizing: border-box;
+	font-size: 0;
 }
 
 main {
@@ -22,12 +25,14 @@ main {
 	margin:0;
 	padding: 0;
 	box-sizing: border-box;
+	font-size: 0;
 }
 
 section {
 	width: 100%
 	padding:0;
 	box-sizing: border-box;
+	font-size: 0;
 }
 .header-top {
 	height: 69px;
@@ -98,6 +103,7 @@ section {
 
 				.header-top .right .social .icons a {
 					color:#2b2c2d;
+					font-size: 16px;
 				}
 
 					.header-top .right .social .icons a:visited {
@@ -130,7 +136,7 @@ section {
 			.header-bot .left .menu i {
 				line-height: 70px;
 				font-size: 13px;
-				padding: 0 30.5px;
+				padding: 0 30px;
 			}
 
 	.header-bot .right {
@@ -158,6 +164,7 @@ section {
 
 			.header-bot .right .search i {
 				display: inline-block;
+				font-size: 16px;
 			}
 
 		.header-bot .right .center {
@@ -173,7 +180,7 @@ section {
 			.header-bot .right .center a {
 				text-decoration: none;
 				font-size: 13px;
-				color:#2b2c2d
+				color:#2b2c2d;
 				font-weight: 600;
 			}
 
@@ -182,7 +189,7 @@ section {
 				}
 
 				.header-bot .right .center a:hover {
-					color: #4b4d4f
+					color: #4b4d4f;
 				}
 
 		.header-bot .right .submit {
@@ -424,32 +431,59 @@ main .image {
 
 							}
 
+			.unique {
+				text-decoration: none;
+				margin: 0;
+				color: black;
+				box-sizing: border-box;
+				border-radius: 18px;
+				border-style: solid;
+				border-width: 1px;
+				padding: 10px 24px 10px 15px;
+			}
+
+				.unique a {
+					height: 15px;
+				}
+
+				.unique:hover {
+					color:#49c5b6
+				}
+							
+				.unique a:hover {
+							color:#49c5b6
+				}
+
 
 			.main-bot {
 				width: 100%;
 				display:inline-block;
 				padding: 50px 0;
+
 				
 			}
 				.main-bot .left {
 					float:left;
+					margin-left: 65px;
 				}
 					.main-bot a {
+						font-size: 16px;
 						font-weight: bold;
 						text-decoration: none;
-
-
+						color:black;
 					}
 						.main-bot a:visited {
 							color:black;
 						}
 					.main-bot span {
 						margin: 0px 10px;
+						font-size: 16px;
 
 					}
 
 				.main-bot .right {
 					float:right;
+					margin-right: 65px;
 					
 				}
 					.main-bot span {
@@ -460,13 +494,342 @@ main .image {
 							
 
 						}
-		
 
-.content {
-	display:inline-block;
+
+			.box-bottom-web {
+				max-width: 1773px;
+				height: auto;
+				margin: 0 auto;
+				
+			}	
+
+				.website-box {
+					display: inline-block;
+					background-color: #fff;
+					width:417px;
+					height: 474px;
+					transition: all ease-in-out .5s;
+					padding-left:35px;
+				}
+
+					.website-box1 {
+						display: inline-block;
+						background-color: #fff;
+						width:417px;
+						height: 474px;
+						transition: all ease-in-out .5s;
+						/*padding-left:26px;*/
+					}
 
 	
-}
-	.content img {
-		float: left;
-	}	
+						.web-image {
+							width: 100%;
+							height: 298px;
+							position:relative;
+							overflow: hidden;
+						}
+
+							.web-image .image1 {
+								width: 100%;
+								height: 298px;
+								background-image: url(https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2017/10/59e897c2a9d5f.png);
+								background-position: center;
+								background-size:cover;
+								transition: all ease-in-out .5s;
+							}
+
+							.web-image:hover .image1 {
+								transform: scale(1.1);
+							}
+
+							.web-image .image2 {
+								width: 100%;
+								height: 298px;
+								background-image: url(https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2017/10/59e7a90bde19a.jpg);
+								background-position: center;
+								background-size:cover;
+								transition: all ease-in-out .5s;
+							}
+
+							.web-image:hover .image2 {
+								transform: scale(1.1);
+							}
+
+							.web-image .image3 {
+								width: 100%;
+								height: 298px;
+								background-image: url(https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2017/10/59e613c884bad.jpg);
+								background-position: center;
+								background-size:cover;
+								transition: all ease-in-out .5s;
+							}
+
+							.web-image:hover .image3 {
+								transform: scale(1.1);
+							}
+
+							.web-image .image4 {
+								width: 100%;
+								height: 298px;
+								background-image: url(https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2017/10/59f8895e0d918.jpg);
+								background-position: center;
+								background-size:cover;
+								transition: all ease-in-out .5s;
+							}
+
+							.web-image:hover .image4 {
+								transform: scale(1.1);
+							}
+
+							.web-image .image5 {
+								width: 100%;
+								height: 298px;
+								background-image: url(https://assets.awwwards.com/awards/media/cache/thumb_417_299/external/2017/10/59d24cbcdfdda.jpg);
+								background-position: center;
+								background-size:cover;
+								transition: all ease-in-out .5s;
+							}
+
+							.web-image:hover .image5 {
+								transform: scale(1.1);
+							}
+
+							.web-image .image6 {
+								width: 100%;
+								height: 298px;
+								background-image: url(https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2017/10/59f6ef1d252c8.png);
+								background-position: center;
+								background-size:cover;
+								transition: all ease-in-out .5s;
+							}
+
+							.web-image:hover .image6 {
+								transform: scale(1.1);
+							}
+
+							.web-image .image7 {
+								width: 100%;
+								height: 298px;
+								background-image: url(https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2017/10/59f7105c4af22.jpg);
+								background-position: center;
+								background-size:cover;
+								transition: all ease-in-out .5s;
+							}
+
+							.web-image:hover .image7 {
+								transform: scale(1.1);
+							}
+
+							.web-image .image8 {
+								width: 100%;
+								height: 298px;
+								background-image: url(https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2017/10/59f8929721ef8.jpg);
+								background-position: center;
+								background-size:cover;
+								transition: all ease-in-out .5s;
+							}
+
+							.web-image:hover .image8 {
+								transform: scale(1.1);
+							}
+
+							.web-image .image9 {
+								width: 100%;
+								height: 298px;
+								background-image: url(https://assets.awwwards.com/awards/media/cache/thumb_417_299/external/2017/10/59f31a2c29dd8.jpg);
+								background-position: center;
+								background-size:cover;
+								transition: all ease-in-out .5s;
+							}
+
+							.web-image:hover .image9 {
+								transform: scale(1.1);
+							}
+
+							.web-image .image10 {
+								width: 100%;
+								height: 298px;
+								background-image: url(https://assets.awwwards.com/awards/media/cache/thumb_417_299/external/2017/10/59f31984195e7.jpg);
+								background-position: center;
+								background-size:cover;
+								transition: all ease-in-out .5s;
+							}
+
+							.web-image:hover .image10 {
+								transform: scale(1.1);
+							}
+
+							.web-image .image11 {
+								width: 100%;
+								height: 298px;
+								background-image: url(https://assets.awwwards.com/awards/avatar/310505/5954add47f787.jpg);
+								background-position: center;
+								background-size:cover;
+								transition: all ease-in-out .5s;
+							}
+
+							.web-image:hover .image11 {
+								transform: scale(1.1);
+							}
+
+							.web-image .image12 {
+								width: 100%;
+								height: 298px;
+								background-image: url(https://assets.awwwards.com/awards/avatar/241/5954bd9f0e21f.jpg);
+								background-position: center;
+								background-size:cover;
+								transition: all ease-in-out .5s;
+							}
+
+							.web-image:hover .image12 {
+								transform: scale(1.1);
+							}
+
+							.web-image .image-hover {
+								width: 100%;
+								height: 298px;
+								position: absolute;
+								top:0;
+								background-color: rgba(0, 0, 0, 0.3);
+								opacity: 0; 
+								transition: all ease-in-out .5s;
+							}
+
+							.web-image:hover .image-hover {
+								opacity: 1;
+							}
+
+				.underimage {
+					width: 100%;
+					height: 176px;
+				}
+
+					.content-underimage {
+						width: 100%;
+						height:auto;
+						padding: 20px;
+					}
+
+					.underimage h6 {
+						font-size: 15px;
+						margin:0;
+						padding-bottom: 12px;
+					}
+
+					.underimage p {
+						font-size: 14px;
+						font-weight: 500;
+						margin: 0;
+						padding-bottom: 12px;
+					}
+
+						.underimage a {
+							font-weight: 600;
+							text-decoration: none;
+							color: #49c5b6;
+						}
+
+							.underimage a:visited {
+							color: #49c5b6;
+							}
+
+							.underimage a:hover {
+							color: #3a3b3d;
+							}
+
+					.underimage ul {
+						margin:0;
+						padding: 0 20px;
+						display: inline-block;
+
+					}
+						.underimage li {
+							float: left;
+							margin-right: 6px; 
+						}
+
+							.underimage img {
+								width: 25px;
+								height: 25px;
+								border-radius: 50%;
+							}
+
+		footer {
+			width: 100%;
+			height: 340px;
+			box-sizing: border-box;
+
+		}
+
+			.wrapper-footer {
+				width: 1773px;
+				height: 100%;
+				margin:0 auto;
+				box-sizing: border-box;
+			}
+
+			.wrapper2 {
+				width: 100%;
+				height: 100%;
+				padding:70px 0 100px 0;
+				box-sizing: border-box;
+			}
+
+				.left-footer {
+					width: 65%;
+					height: 100%;
+					float: left;
+					box-sizing: border-box;
+				}
+
+					.left-footer h1 {
+						font-size: 18px;
+						font-weight: 500;
+						margin-bottom: 20px;
+						color: #3a3b3d;
+					}
+
+					.left-footer p {
+						margin:0;
+						padding-bottom: 20px;
+						font-size: 13px;
+						color: #3a3b3d;
+					}
+
+					.left-footer ul {
+						margin:0;
+						padding: 0;
+						display: inline-block;
+						list-style: none;
+					}
+
+						.left-footer li {
+							float: left;
+							margin-right: 20px;
+							padding-bottom: 20px;
+						}
+
+						.left-footer a {
+							font-size: 15px;
+							color: #222223;
+							font-weight: 600;
+							text-decoration: none;
+						}
+
+						.left-footer a:hover {	
+							color: #49494c;
+						}
+
+				.right-footer {
+					font-size: 18px;
+					text-align: right;
+					padding-top: 10px;
+				}
+					.right-footer a {
+						color: #222223
+					}
+
+					.right-footer .conferences a {
+						color: black;
+						font-size: 19px;
+					}
