@@ -1,0 +1,61 @@
+body {
+	background-color: grey;
+}
+
+html, body {
+	height: 100%;
+}
+.container {
+	height: 100%;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-end; 
+}
+.container .item {
+	color: #fff;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.one {
+	order: 1;
+	flex-grow: 2;
+}
+
+.two {
+	order: 2;
+	flex-grow: 5;
+}
+
+.three {
+	order: 4;
+}
+
+.four {
+	order: 5;
+}
+
+.five {
+	order: 3;
+}
